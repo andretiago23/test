@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>test javasc</title>
+    <script>
+        var quebrada = false;
+
+        function mudaMao(tipo) {
+
+            if (tipo == 1) {
+                arquivo = "./imagens/mao_fechada.jpg";
+                if (tipo == 2)
+                    arquivo = "./imagens/mao_aberta.jpg"
+
+                if (tipo == 3)
+                    arquivo = "./imagens/mao_pintada.jpg";
+
+            }
+        }
+
+        document.getElementById("mao").src = arquivo;
+
+    </script>
+</head>
+
+<body>
+    <h1></h1>
+    <img src="./imagens/mao_aberta.jpg" id="mao" onmousemove={mudaMao()} onmouseout="mudaMao()" onclick="mudaMao()" />
+</body>
+
+</html>

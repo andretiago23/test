@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>test javasc</title>
+    <script>
+        function pinteMao() {
+            document.getElementById("mao").src = "./imagens/mao_pintada.jpg";
+        }
+
+        function abraMao() {
+            document.getElementById("mao").src = "./imagens/mao_aberta.jpg";
+        }
+        function fecha() {
+            document.getElementById("mao").src = "./imagens/mao_fechada.jpg";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>abra a mão</h1>
+    <img src="./imagens/mao_fechada.jpg" id="mao" onmousemove={abraMao()} onmouseout="fecha()" onclick="pinteMao()" />
+</body>
+
+</html>
