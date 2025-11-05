@@ -1,0 +1,127 @@
+    .apresentacao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 8% 15%;
+        background-color: var(--cor-primaria);
+
+    }
+
+    :root {
+        --cor-primariria: #000000;
+        --cor-secundaria: #07f9a2;
+        --cor-tercaria: #0a8967;
+        --cor-quartenaria: #69D0B3;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .cabecalho__menu__link {
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: var(--cor-primaria);
+        text-decoration: none;
+        font-size: 26px;
+
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        gap: 20px
+    }
+
+    .cabecalho {
+        padding: 2% 0% 0% 15%;
+    }
+
+    body {
+
+        background-color: var(--cor-primariria);
+        color: var(--cor-secundaria);
+    }
+
+    .destaque {
+        color: var(--cor-tercaria)
+    }
+
+    .apresentacao__conteudo {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .apresentacao__titulo {
+        font-size: 35px;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .apresentacao_texto {
+        font-size: 24px;
+    }
+
+    .apresentacao__links {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .apresentacao__link__link {
+        gap: 16px;
+        display: flex;
+        justify-content: center;
+        border: solId var(--cor-tercaria);
+        background-color: var(--cor-primariria);
+        width: 280px;
+        text-align: center;
+        border-radius: 16px;
+        padding: 20px;
+        text-decoration: none;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        color: var(--cor-secundaria);
+        font-size: 22px;
+        margin: 15px;
+        border-color: var(--cor-quartenaria);
+    }
+
+    .apresentacao__link__subtitulo {
+        display: flex;
+        gap: 15px;
+        justify-content: start;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+
+    .apresentacao__link__link:hover {
+        background-color: var(--cor-tercaria);
+
+    }
+
+    .rodape {
+        padding: 20px;
+        color: var(--cor-primariria);
+        background-color: var(--cor-tercaria);
+        text-align: center;
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 20px;
+    }
